@@ -1,9 +1,11 @@
 # liri-node-app
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+
+## Getting Started
 ***
 * 1 - npm install
 * 2 - node liri-node-app <enter method> (optional parameter)
-***w
+***
 ## Available Methods
 
 ### my-tweets
@@ -17,13 +19,8 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ### do-what-it-says
 >will read text from **_random.txt_** and run a function accordingly
 
-## Getting Started
-
-Simply hit START to begin the game.
-
 ## Built With
 
-* [Jquery](https://jquery.com/) - JQuery
 * [Javascript](https://www.javascript.com/) - Javascript
 * Node
 * NPM
