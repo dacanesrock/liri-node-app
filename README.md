@@ -7,6 +7,9 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ## Available Methods
 
 * my-tweets
+***
+* brings back 20 most recent tweets from @dacanesrock (don't judge, please)
+***
 * spotify-this-song
 * movie-this
 * do-what-it-says
@@ -19,11 +22,13 @@ Simply hit START to begin the game.
 
 * [Jquery](https://jquery.com/) - JQuery
 * [Javascript](https://www.javascript.com/) - Javascript
+* Node
+* NPM
 
 ## Author
 
-* **Robbie Geyer** - *Initial work* - [dacanesrock](https://github.com/dacanesrock)
+* **Robbie Geyer** - [dacanesrock](https://github.com/dacanesrock)
 
 ## Acknowledgments
 
-* Google-Fu
+* Node, NPM, and all the glorious coders who built these packages.
