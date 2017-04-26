@@ -11,13 +11,19 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ### my-tweets
 >brings back 20 most recent tweets from @dacanesrock (don't judge, please)
 ### spotify-this-song
->this method will search "The Sign" by **Ace of Base**. 
+>this method will search _"The Sign"_ by **Ace of Base**. 
 >_add an optional search parameter to look up your favorite song_
 ### movie-this
 >this method will search the movie **Mr Nobody** and return a variety of information. 
 >_add an optional search parameter to look up your favorite movie_
 ### do-what-it-says
 >will read text from **_random.txt_** and run a function accordingly
+
+## To-Do
+***
+* 1 - **log** all activity to a separate txt file
+* 2 - clean up **do-what-it-says** to be more versatile/bug-resistant
+***
 
 ## Built With
 
