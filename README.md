@@ -4,7 +4,7 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ## Getting Started
 ***
 * 1 - npm install
-* 2 - node liri-node-app <enter method> (optional parameter)
+* 2 - node liri-node-app **<method>** **(optional parameter)**
 ***
 ## Available Methods
 
