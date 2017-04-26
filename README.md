@@ -21,7 +21,7 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 
 ## To-Do
 ***
-* 1 - **log** all activity to a separate txt file
+* ~~1 - **log** all activity to a separate txt file~~
 * 2 - clean up **do-what-it-says** to be more versatile/bug-resistant
 ***
 
