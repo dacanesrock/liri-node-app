@@ -1,0 +1,117 @@
+------------------------
+log
+------------------------
+-----------
+method: my-tweets
+-----------Tweet 1: ♫ My Top 5 #lastfm artists: Playboi Carti (41), St. Vincent (34), Dnmo (15), Zeds Dead (15) &amp; Kom (7) via @tweeklyfm #music
+Date Created: Wed Apr 26 13:00:23 +0000 2017
+----------------------------
+Tweet 2: no, please. just insert yourself into this conversation of two.
+Date Created: Wed Apr 26 12:18:08 +0000 2017
+----------------------------
+Tweet 3: here. in a familiar place.
+Date Created: Tue Apr 25 18:50:06 +0000 2017
+----------------------------
+Tweet 4: @Mr_Mungo "all of a sudden"??
+Date Created: Mon Apr 24 14:50:59 +0000 2017
+----------------------------
+Tweet 5: The scents of the past like a knife to the heart. The sense of the past is what pulls us apart.
+Date Created: Mon Apr 24 14:50:42 +0000 2017
+----------------------------
+Tweet 6: I like sadness in art. so much harder to fabricate.
+Date Created: Sun Apr 23 21:04:48 +0000 2017
+----------------------------
+Tweet 7: no consideration
+Date Created: Sun Apr 23 17:51:59 +0000 2017
+----------------------------
+Tweet 8: RT @djembahh: just care about something plz. not caring was never cool.
+Date Created: Sun Apr 23 01:24:23 +0000 2017
+----------------------------
+Tweet 9: all. the. way. in. love. with. u.
+Date Created: Sun Apr 23 01:23:59 +0000 2017
+----------------------------
+Tweet 10: I'm actually just Nick Miller
+Date Created: Sat Apr 22 00:52:05 +0000 2017
+----------------------------
+Tweet 11: I just want your body
+Date Created: Fri Apr 21 14:31:11 +0000 2017
+----------------------------
+Tweet 12: "Deadz Fuego Visual Arts" 
+Episode 1 
+Artist | @_5ghost 
+Video Shot by  | Me | @dacanesrock |… https://t.co/3G6ApQO4eD
+Date Created: Fri Apr 21 08:17:19 +0000 2017
+----------------------------
+Tweet 13: RT @slants: reasons i favorite tweets:
+1. ur hot 
+2. i agree
+3. i think ur a complete idiot
+4. i know u hate me &amp; i want u to know that i k…
+Date Created: Fri Apr 21 02:50:44 +0000 2017
+----------------------------
+Tweet 14: ride it out. wave after wave.
+Date Created: Fri Apr 21 02:50:15 +0000 2017
+----------------------------
+Tweet 15: only confirming that these things don't last
+Date Created: Fri Apr 21 02:50:05 +0000 2017
+----------------------------
+Tweet 16: lol gtfo wcnc https://t.co/qOdPsiDMrb
+Date Created: Thu Apr 20 12:25:57 +0000 2017
+----------------------------
+Tweet 17: I've done a lot of boyfriend stuff without being boyfriend. ¯\_(ツ)_/¯
+Date Created: Wed Apr 19 23:46:56 +0000 2017
+----------------------------
+Tweet 18: these dreams
+Date Created: Wed Apr 19 19:59:42 +0000 2017
+----------------------------
+Tweet 19: ♫ My Top 5 #lastfm artists: Kendrick Lamar (19), Quix (7), Childish Gambino (6), KYLE (6) &amp; Rudimental (5) via @tweeklyfm #music
+Date Created: Wed Apr 19 13:00:17 +0000 2017
+----------------------------
+Tweet 20: beauty isn't everything. it's the only thing.
+Date Created: Wed Apr 19 03:02:39 +0000 2017
+----------------------------
+-----------
+method: spotify-this-song
+----------------
+ARTIST: Ace of Base
+TRACK NAME: The Sign
+PREVIEW LINK: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
+ALBUM: The Sign (US Album) [Remastered]
+----------------
+----------------------
+method: spotify-this-song
+----------------
+ARTIST: A$AP Ferg
+TRACK NAME: Shabba REMIX
+PREVIEW LINK: https://p.scdn.co/mp3-preview/75fb0e365cb08afd80fd4f72315629a963cfe755?cid=null
+ALBUM: Shabba REMIX
+----------------
+----------------------
+method: movie-this
+----------------TITLE: Mr. Nobody
+YEAR RELEASED: 2009
+IMDB RATING: 7.9/10
+COUNTRY PRODUCED: Belgium, Germany, Canada, France
+LANGUAGE: English, Mohawk
+PLOT: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+ACTORS: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+ROTTEN TOMATOES RATING: 64%
+METASCORE: 63
+----------------
+----------------------
+method: movie-this
+----------------
+TITLE: Arrival
+YEAR RELEASED: 2016
+IMDB RATING: 8.0/10
+COUNTRY PRODUCED: USA
+LANGUAGE: English, Russian, Mandarin
+PLOT: When twelve mysterious spacecraft appear around the world, linguistics professor Louise Banks is tasked with interpreting the language of the apparent alien visitors.
+ACTORS: Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg
+ROTTEN TOMATOES RATING: 94%
+METASCORE: 81
+----------------
+----------------------
+method: do-what-it-says
+spotify-this-song,"I Want it That Way"
+-----------
