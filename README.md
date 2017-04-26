@@ -7,9 +7,8 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ## Available Methods
 
 * my-tweets
-***
-* brings back 20 most recent tweets from @dacanesrock (don't judge, please)
-***
+** brings back 20 most recent tweets from @dacanesrock (don't judge, please)
+
 * spotify-this-song
 * movie-this
 * do-what-it-says
