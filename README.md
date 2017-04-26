@@ -28,8 +28,10 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ## Built With
 
 * [Javascript](https://www.javascript.com/) - Javascript
-* Node
-* NPM
+* [Node.js](https://nodejs.org/en/)
+* [Twitter NPM](https://www.npmjs.com/package/twitter)
+* [Spotify NPM](https://www.npmjs.com/package/spotify)
+* [Request NPM](https://www.npmjs.com/package/request)
 
 ## Author
 
