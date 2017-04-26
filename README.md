@@ -7,11 +7,14 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ## Available Methods
 
 * my-tweets _
-brings back 20 most recent tweets from @dacanesrock (don't judge, please)
-
+⋅⋅* brings back 20 most recent tweets from @dacanesrock (don't judge, please)
 * spotify-this-song
+⋅⋅* this method will search "The Sign" by **Ace of Base**
+⋅⋅* add an optional search parameter to look up your favorite song
 * movie-this
+⋅⋅*
 * do-what-it-says
+⋅⋅*
 
 ## Getting Started
 
