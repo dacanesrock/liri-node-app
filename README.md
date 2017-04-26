@@ -3,13 +3,13 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 ***
 * 1 - npm install
 * 2 - node liri-node-app <enter method> (optional parameter)
-***
+***w
 ## Available Methods
 
 * my-tweets
 ⋅⋅⋅brings back 20 most recent tweets from @dacanesrock (don't judge, please)
 * spotify-this-song
-⋅⋅* this method will search "The Sign" by **Ace of Base**
+>this method will search "The Sign" by **Ace of Base**
 ⋅⋅* add an optional search parameter to look up your favorite song
 * movie-this
 ⋅⋅*
