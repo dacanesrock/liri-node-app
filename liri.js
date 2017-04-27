@@ -10,7 +10,7 @@ var data = "";
 if (input1 === 'my-tweets') {
     myTweets();
 } else if (input1 === 'spotify-this-song') {
-    spotifyThisSong();
+    spotifyThisSong(input2);
 } else if (input1 === 'movie-this') {
     movieThis();
 } else if (input1 === 'do-what-it-says') {
@@ -31,13 +31,13 @@ function myTweets() {
     });
 };
 
-function spotifyThisSong(input, song) {
+function spotifyThisSong(input2) {
     var songInput = process.argv;
     var song = "";
     for (var i = 3; i < songInput.length; i++) {
-        song += songInput[i] + " ";
+        song += songInput[i] + "+";
     };
-    if (song === "") { song = "the sign ace of base" };
+    if (song === "") { song = input2 || "the sign ace of base" };
     spotify.search({ type: 'track', query: song, limit: '1' }, function(err, data) {
         if (err) {
             console.log('Error occurred: ' + err);
@@ -59,7 +59,7 @@ function movieThis() {
     var titleInput = process.argv;
     var title = "";
     for (var i = 3; i < titleInput.length; i++) {
-        title += titleInput[i] + " ";
+        title += titleInput[i] + "+";
     };
     if (title === "") { title = "mr nobody" };
     request({
@@ -74,11 +74,13 @@ function movieThis() {
         "----------------" + "\n" + 
         "TITLE: " + JSON.parse(data).Title + "\n" +
         "YEAR RELEASED: " + JSON.parse(data).Year + "\n" +
-        "IMDB RATING: " + JSON.parse(data).Ratings[0].Value + "\n" +
+        "IMDB RATING: " + JSON.parse(data).imdbRating + "\n" +
         "COUNTRY PRODUCED: " + JSON.parse(data).Country + "\n" +
         "LANGUAGE: " + JSON.parse(data).Language + "\n" +
         "PLOT: " + JSON.parse(data).Plot + "\n" +
         "ACTORS: " + JSON.parse(data).Actors + "\n" +
+        // this breaks if your search pulls up a tv series
+        // eg. 'twin peaks'
         "ROTTEN TOMATOES RATING: " + JSON.parse(data).Ratings[1].Value + "\n" +
         "METASCORE: " + JSON.parse(data).Metascore + "\n" +
         "----------------";
@@ -97,28 +99,6 @@ function doWhatItSays() {
         var dataArray = data.split(",");
         input1 = dataArray[0];
         input2 = dataArray[1];
-        if (input1 === 'my-tweets') {
-            myTweets();
-        } else if (input1 === 'spotify-this-song') {
-            function spotifyThisSong() {
-            	var song = input2;
-            	console.log(song);
-                spotify.search({ type: 'track', query: song, limit: '1' }, function(err, data) {
-                    if (err) {
-                        console.log('Error occurred: ' + err);
-                        return;
-                    };
-                    console.log("----------------")
-                    console.log("ARTIST: " + data.tracks.items[0].artists[0].name);
-                    console.log("TRACK NAME: " + data.tracks.items[0].name);
-                    console.log("PREVIEW LINK: " + data.tracks.items[0].preview_url);
-                    console.log("ALBUM: " + data.tracks.items[0].album.name);
-                    console.log("----------------")
-                });
-            };
-            spotifyThisSong();
-        } else if (input1 === 'movie-this') {
-            movieThis();
-        };
+        spotifyThisSong(input2);
     })
 };
