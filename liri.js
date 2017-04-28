@@ -8,19 +8,20 @@ var fs = require("fs");
 var data = "";
 
 if (input1 === 'my-tweets') {
-    myTweets();
+    myTweets(input2);
 } else if (input1 === 'spotify-this-song') {
     spotifyThisSong(input2);
 } else if (input1 === 'movie-this') {
-    movieThis();
+    movieThis(input2);
 } else if (input1 === 'do-what-it-says') {
     doWhatItSays()
 };
 
 function myTweets() {
     var client = new Twitter(keys.twitterKeys);
+    var username = input2 || 'dacanesrock';
     fs.appendFileSync("log.txt", "-----------" + "\n" + "method: " + input1 + "\n" + "-----------");
-    client.get('search/tweets', { q: 'dacanesrock', count: '20' }, function(err, tweets, response) {
+    client.get('search/tweets', { q: username, count: '20' }, function(err, tweets, response) {
         for (var i = 0; i < tweets.statuses.length; i++) {
         	data = "Tweet " + (i + 1) +": " + tweets.statuses[i].text + "\n" +
         	'Date Created: ' + tweets.statuses[i].created_at + "\n" + 
@@ -55,13 +56,13 @@ function spotifyThisSong(input2) {
     });
 };
 
-function movieThis() {
+function movieThis(input2) {
     var titleInput = process.argv;
     var title = "";
     for (var i = 3; i < titleInput.length; i++) {
         title += titleInput[i] + "+";
     };
-    if (title === "") { title = "mr nobody" };
+    if (title === "") { title = input2 || "mr nobody" };
     request({
         method: "GET",
         url: "http://www.omdbapi.com/?t=" + title,
@@ -90,8 +91,6 @@ function movieThis() {
 
 };
 
-// //////////////////////
-// this is a mess, i know
 function doWhatItSays() {
     fs.readFile('./random.txt', 'utf8', (err, data) => {
         fs.appendFileSync("log.txt", "-----------" + "\n" + "method: " + input1 + "\n" + data + "\n" + "-----------");    	
@@ -99,6 +98,12 @@ function doWhatItSays() {
         var dataArray = data.split(",");
         input1 = dataArray[0];
         input2 = dataArray[1];
-        spotifyThisSong(input2);
+        if (input1 === 'my-tweets') {
+		    myTweets();
+		} else if (input1 === 'spotify-this-song') {
+		    spotifyThisSong(input2);
+		} else if (input1 === 'movie-this') {
+		    movieThis(input2);
+		} ;
     })
 };
